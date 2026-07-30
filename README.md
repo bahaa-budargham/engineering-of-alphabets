@@ -4,7 +4,7 @@ This repository contains the public 43-term pre-convergence basis sequences (`en
 
 It accompanies the research paper:
 
-> **EOA-43: A Low-Dimensional Deterministic Word Representation with a Stability–Accuracy Trade-off**
+> **EOA-43: Input-Independent Convergence in a Low-Dimensional, Noise-Stable Word Representation**
 >
 > **Author:** Bahaa Budargham
 
