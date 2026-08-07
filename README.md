@@ -7,7 +7,7 @@
 
 ---
 
-**[▶ Try the Interactive Playground](https://bahaa-budargham.github.io/engineering-of-alphabets/playground.html)**
+**[▶ Try the Interactive Playground](https://bahaa-budargham.github.io/engineering-of-alphabets/eoa43-playground.html)**
 Type any word. See its 43-dimensional vector. Add character noise. Inspect the 16 basis elements.
 
 **Papers:** [EOA-43 (paper 1)](#citation) · [EOA-Recurrence (paper 2, cross-encoding)](#citation) · **Benchmark notebook:** [Colab](https://colab.research.google.com/drive/1WvLdr4qqDU_KY8H26DaYnR3N1U6CQIdV?usp=sharing)
