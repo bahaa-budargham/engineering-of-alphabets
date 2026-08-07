@@ -1,5 +1,5 @@
 # EOA-43: A Rank-Collapsed Deterministic Word Representation with a Convergent Recursive Basis
-
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 > A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its 43-term basis sequences stabilizes to ≈ 3.17 — for **every** letter name, for **every** word, and across **random symbols** the system was never built for. The number is **not a universal constant**. Across 5 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)** — a 1.5× spread. The empirical mapping is in the paper. The theoretical explanation is **open**.
 
 ![EOA-43 — Limiting Convergence Ratio across 5 encodings, 4 languages](figures/lcr_across_encodings.png)
@@ -81,4 +81,20 @@ This is the source of the 2.69 KB on-demand memory footprint: 16 × 43 × 4 byte
   "b": [<43 floats>],
   "...": "...",
   "z": [<43 floats>]
+}
+
+## License and Citation
+
+This repository is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are free to use, share, and adapt the material, provided you give appropriate credit.
+
+**If you use the EOA‑43 basis sequences (`english_alphabet.json`) or any code from this repository in your research, you must cite the following paper:**
+
+Budargham, B. (2026). EOA-43: A Rank-Collapsed Deterministic Word Representation with a Convergent Recursive Basis. [arXiv ID / DOI]
+
+BibTeX:
+@article{Budargham2026EOA43,
+  author = {Bahaa Budargham},
+  title = {EOA-43: A Rank-Collapsed Deterministic Word Representation with a Convergent Recursive Basis},
+  year = {2026},
+  note = {arXiv:XXXX.XXXXX}
 }
