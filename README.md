@@ -5,7 +5,7 @@
 > A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its 43-term basis sequences stabilizes to ≈ 3.17 — for **every** letter name, for **every** word, and across **random symbols** the system was never built for. The number is **not a universal constant**. Across 5 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)** — a 1.5× spread. The empirical mapping is in the paper. The theoretical explanation is **open**.
 
 ![EOA-43 — Limiting Convergence Ratio across 5 encodings, 4 languages](figures/lcr_across_encodings.png)
-*The English IPA bar coincidentally sits near π; this proximity is not a structural property.*
+*The English primary encoding bar coincidentally sits near π; this proximity is not a structural property.*
 
 ---
 
@@ -17,7 +17,7 @@
 
 | File | Description |
 | :--- | :--- |
-| `data/encodings/` | Letter-name input strings for all five encodings reported in the companion paper (English canonical, English alternative, Arabic, Hebrew, Greek). |
+| `data/encodings/` | Letter-name input strings for all five encodings reported in the companion paper (English primary, English alternative, Arabic, Hebrew, Greek). |
 | `notebooks/allcolab.ipynb` | Main Colab notebook containing all benchmark experiments for EOA‑43 (uniform noise, Tables 3–4, PCA, rank diagnostics, and reproducibility). |
 | `notebooks/ocrs.ipynb` | Colab notebook for the OCR noise experiment (Table 5). |
 | `figures/` | Figures from both the EOA‑43 and EOA‑Recurrence papers. |
