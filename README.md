@@ -2,7 +2,7 @@
 # EOA-43: A Rank-Collapsed Deterministic Word Representation with a Convergent Recursive Basis
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-> A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its 43-term basis sequences stabilizes to ≈ 3.17 — for **every** letter name, for **every** word, and across **random symbols** the system was never built for. The number is **not a universal constant**. Across 5 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)** — a 1.5× spread. The empirical mapping is in the paper. The theoretical explanation is **open**.
+> A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its 43-term basis sequences stabilizes to ≈ 3.173 — for **every** letter name, for **every** word, and across **random symbols** the system was never built for. The number is **not a universal constant**. Across 5 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)** — a 1.5× spread. The empirical mapping is in the paper. The theoretical explanation is **open**.
 
 ![EOA-43 — Limiting Convergence Ratio across 5 encodings, 4 languages](figures/lcr_across_encodings.png)
 *The English primary encoding bar coincidentally sits near π; this proximity is not a structural property.*
