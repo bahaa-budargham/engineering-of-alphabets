@@ -23,15 +23,15 @@
 | `figures/` | Figures from both the EOA‑43 and EOA‑Recurrence papers. |
 | `LEADERBOARD.md` | Tracks submissions for the open theoretical questions (see below). |
 
-The internal deterministic operator that generates the basis sequences is **not** in this repository. Only its public outputs are released. See [Disclosure status](#disclosure-status) below.
+The internal deterministic operator that generates the basis sequences is **not** in this repository. The generated outputs are available under the terms described in EOA-43, Section 2. See [Disclosure status](#disclosure-status) below.
 
 ---
 
 ## Open theoretical questions
 
-The companion paper (EOA-Recurrence) formalizes three open questions derived from the public sequences. The questions (stability within a fixed encoding, cross-encoding mapping, and inverse design) are described in detail in EOA-Recurrence, Section 6. A bank of seven candidate hypotheses (H1–H7) is provided in Section 5.
+The companion paper (EOA-Recurrence) formalizes three open questions derived from the released sequences. The questions (stability within a fixed encoding, cross-encoding mapping, and inverse design) are described in detail in EOA-Recurrence, Section 6. A bank of seven candidate hypotheses (H1–H7) is provided in Section 5.
 
-The 43-term sequences are public and fully measurable by anyone. The operator that generated them is the only gated piece. For access under research-protective terms, please refer to the Research Disclosure Program in EOA-43, Section 2 (contact details provided there). Submissions of theoretical explanations are tracked in [`LEADERBOARD.md`](./LEADERBOARD.md).
+The 43-term sequences are available to qualified researchers under the terms described in EOA-43, Section 2. They are fully measurable by researchers with access. The operator that generated them is the only gated piece. For access under research-protective terms, please refer to the Research Disclosure Program in EOA-43, Section 2 (contact details provided there). Submissions of theoretical explanations are tracked in [`LEADERBOARD.md`](./LEADERBOARD.md).
 
 ---
 
@@ -53,7 +53,7 @@ The 43-term sequences are public and fully measurable by anyone. The operator th
 - The internal deterministic operator that produces the basis sequences.
 - The closed-form mapping from encoding properties to LCR (open question).
 
-A preliminary least-squares test of the natural linear hypothesis (v<sub>n+1</sub> = M · v<sub>n</sub>) yielded large reconstruction errors on the public data; the status of this hypothesis and the need for normalized-error analysis are discussed in EOA-Recurrence, Section 2. The operator is made available to qualified research collaborators under research-protective terms. Contact the author for the agreement. The mathematical properties attributed to the operator in either paper should be read as **empirical observations of its outputs** unless and until a full formal specification is published.
+A preliminary least-squares test of the natural linear hypothesis (v<sub>n+1</sub> = M · v<sub>n</sub>) yielded large reconstruction errors on the released sequences; the status of this hypothesis and the need for normalized-error analysis are discussed in EOA-Recurrence, Section 2. The operator is made available to qualified research collaborators under research-protective terms. Contact the author for the agreement. The mathematical properties attributed to the operator in either paper should be read as **empirical observations of its outputs** unless and until a full formal specification is published.
 
 ---
 
